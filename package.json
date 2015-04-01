@@ -1,0 +1,33 @@
+{
+  "name": "binary-to-string",
+  "version": "0.1.0",
+  "description": "converts a binary string into a string of characters",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "mocha": "^2.2.1"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:samccone/binary-to-string.git"
+  },
+  "keywords": [
+    "binary",
+    "encoding",
+    "util",
+    "decoding",
+    "string"
+  ],
+  "author": "Sam Saccone",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/samccone/binary-to-string/issues"
+  },
+  "homepage": "https://github.com/samccone/binary-to-string"
+}
