@@ -1,6 +1,6 @@
 {
   "name": "binary-to-string",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "converts a binary string into a string of characters",
   "main": "index.js",
   "directories": {
