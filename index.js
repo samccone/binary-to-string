@@ -1,3 +1,5 @@
+var punycode = require('punycode');
+
 module.exports = function(binary) {
   var out = '';
   while(binary.length >= 8) {
@@ -6,5 +8,5 @@ module.exports = function(binary) {
    out += String.fromCharCode(parseInt(byte, 2));
   }
 
-  return out;
+  return punycode.toUnicode(out);
 };
